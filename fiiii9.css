@@ -1,0 +1,35 @@
+body{
+    background-color:black;
+}
+h1{
+    color:yellow;
+    font-style:italic;
+    font-family: "Rubik Scribble", system-ui;
+}
+li{
+    list-style: none;
+    color:white;
+}
+.deflex{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+.classmere{
+    display: flex;
+    justify-content:space-around;
+}
+li:hover{
+    color:yellow;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}

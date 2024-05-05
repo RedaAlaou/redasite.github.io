@@ -1,0 +1,64 @@
+body{
+    background-color:black;
+}
+h1{
+    color:yellow;
+    font-style:italic;
+    font-family: "Rubik Scribble", system-ui;
+}
+li{
+    list-style: none;
+    color:white;
+}
+@keyframes divjaune{
+    0%{
+        transform:translateX(0);
+    }
+    10%{
+        transform: translateX(200px);
+    }
+    20%{
+        transform: translateY(300px);
+    }
+    40%{
+        transform: translateZ(100px);
+    }
+    60%{
+        transform: translateY(-100px);
+    }
+    80%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.Sfer{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation: divjaune 15s infinite;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+.deflex{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.classmere{
+    display: flex;
+    justify-content:space-around;
+}
+li:hover{
+    color:yellow;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}

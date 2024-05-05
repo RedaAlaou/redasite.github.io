@@ -1,0 +1,142 @@
+body{
+    background-color:black;
+    background-image: url(../background.jpg);
+    background-size: cover;
+    background-position: top;
+    text-align: center; 
+}
+h1{
+    color:yellow;
+    font-style:italic;
+    font-family: "Rubik Scribble", system-ui;
+}
+li{
+    list-style: none;
+    color:white;
+}
+h2{
+    text-align: center;
+    color: rgb(218, 234, 49);
+    font-size: 5rem;
+}
+.deflex{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.classmere{
+    display: flex;
+    justify-content:space-around;
+}
+li:hover{
+    color:yellow;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.tssawr{
+    display:flex;
+    animation: Zorokayt7rk 3s infinite;
+    width: 200px;
+    height: 500px;
+}
+.nami{
+    width: 100px;
+    height: 100px;
+    animation: Zorokayt7rk 3s infinite;
+
+}
+.chopper{
+    width: 100px;
+    height: 100px;
+    animation: Zorokayt7rk 3s infinite;
+
+}
+.robin{
+    width: 100px;
+    height: 100px;
+    animation: Zorokayt7rk 3s infinite;
+
+}
+.franky{
+    width: 100px;
+    height: 100px;
+    animation: Zorokayt7rk 3s infinite;
+
+}
+.brook{
+    width: 100px;
+    height: 100px;
+    animation: Zorokayt7rk 3s infinite;
+}
+.zoro:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+.luffy:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+.sanji:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+.nami:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+.ussop:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+.chopper:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+.robin:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+.franky:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+.brook:hover{
+    width:350px;
+    height:500px;
+    animation: Zorokayt7rk2 4s infinite;
+}
+@keyframes Zorokayt7rk{
+    0%{
+        transform:translateX(0);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes Zorokayt7rk2{
+    0%{
+        transform:rotate(0);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

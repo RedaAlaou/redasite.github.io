@@ -1,0 +1,59 @@
+body{
+    background-color:black;
+}
+h1{
+    color:yellow;
+    font-style:italic;
+    font-family: "Rubik Scribble", system-ui;
+    text-align: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    color:white;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+.mere{
+    
+    display: flex;
+    gap: 20px;
+    background-color: inherit;
+}
+.div1{
+    width:400px;
+    height: 200px;  
+    border: 5px solid white;
+}
+.div2{
+    width:400px;
+    height: 200px;
+    border: 5px solid white;
+
+}
+.div3{
+    width:400px;
+    height: 200px;
+    border: 5px solid white;
+}
+.deflex{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.classmere{
+    display: flex;
+    justify-content:space-around;
+}
+li:hover{
+    color:yellow;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
